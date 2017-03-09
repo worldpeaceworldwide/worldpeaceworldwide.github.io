@@ -15,3 +15,9 @@ div {
 	
 	margin: auto;
 }
+
+
+body, html {
+  cursor: url(http://bringerp.free.fr/Files/RotMG/cursor.gif), pointer;
+  height: 100%;
+}
