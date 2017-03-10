@@ -6,8 +6,6 @@
     height: 100%;
     background: lightblue;
     text-align: center;
-        cursor: url(http://placehold.it/50x30) , auto
-
 }
 
 .tc-content {
@@ -15,3 +13,12 @@
     top: calc(50% - 1em);
 }
 
+body, html {
+  cursor: url(http://bringerp.free.fr/Files/RotMG/cursor.gif), pointer;
+  height: 100%;
+}
+
+a:hover { 
+    cursor: url(http://bringerp.free.fr/Files/RotMG/cursor.gif), pointer;
+  height: 100%;
+}
