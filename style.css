@@ -1,32 +1,68 @@
-.lightbox { 
-    position: fixed;
-    top: 0px;
-    left: 0px;
+/* key stuff */
+
+.container {
     width: 100%;
+    float: left;
+    border: 1px solid white;
+}
+
+.your-centered-div {
+    max-width: 560px; /* you have to have a size or this method doesn't work */
+    max-height: 315px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.your-centered-div2 {
+    max-width: 560px; /* you have to have a size or this method doesn't work */
+    max-height: 315px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this stuff is probably already in your styles */
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
     height: 100%;
-    background: white;
-    text-align: center;
 }
 
-html, body, #wrapper {
-   height:100%;
-   width: 100%;
-   margin: 0;
-   padding: 0;
-   border: 0;
-}
-#wrapper td {
-   vertical-align: middle;
-   text-align: center;
+body {
+    margin: 0;
+    border: 2px solid white;
 }
 
 
 
-.tc-content {
-    position: relative;
-    top: calc(50% - 1em);
-}
 
+
+.your-centered-div img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 body, html {
   cursor: url(http://worldpeaceworldwide.github.io/middlefinger2.png), pointer;
   height: 5%;
