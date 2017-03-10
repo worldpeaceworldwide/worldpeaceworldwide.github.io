@@ -8,6 +8,20 @@
     text-align: center;
 }
 
+html, body, #wrapper {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+#wrapper td {
+   vertical-align: middle;
+   text-align: center;
+}
+
+
+
 .tc-content {
     position: relative;
     top: calc(50% - 1em);
@@ -22,3 +36,4 @@ a:hover {
     cursor: url(http://worldpeaceworldwide.github.io/middlefinger2.png), pointer;
   height: 5%;
 }
+
